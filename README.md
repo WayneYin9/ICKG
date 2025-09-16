@@ -2,7 +2,10 @@
 
 ICKG is an open-source dataset focused on constructing a temporally-resolved Industrial Chain Knowledge Graph.  
 Designed to support research on industrial dependencies, supply–demand relationships, and dynamic risk forecasting, ICKG provides a comprehensive, temporally-aware representation of industrial chain structures and their evolution.  
-This repository includes both the full dataset (**ICKG**) and a smaller subset (**ICKG-subset**) for quick experimentation.
+This repository includes three datasets:
+- **ICKG**: the full dataset  
+- **ICKG-subset**: a smaller subset for quick experimentation  
+- **ICKG-25yrs**: an extended subset spanning 25 years of data  
 
 ---
 
@@ -17,7 +20,10 @@ Through processes of entity extraction, disambiguation, and relation alignment, 
 ## ICKG Dataset
 
 The dataset captures **entities** (industries, companies, patents), **relations** (e.g., upstream, supply, inclusion), and **temporal annotations** across a ten-year period.  
-ICKG is built to support temporal knowledge graph tasks and industrial chain analysis.
+ICKG is built to support temporal knowledge graph tasks and industrial chain analysis.  
+The overall construction workflow of the dataset is illustrated in the figure below.
+![Alt text](/overall.png)
+
 
 ---
 
