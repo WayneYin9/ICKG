@@ -5,7 +5,7 @@ Designed to support research on industrial dependencies, supply–demand relatio
 This repository includes three datasets:
 - **ICIKG**: the full dataset  
 - **ICIKG-subset**: a smaller subset for quick experimentation  
-- **ICIKG-25**: an extended subset spanning 25 years of data  
+- **ICIKG-25**: an extended subset containing data up to September 2, 2025  
 
 ---
 
