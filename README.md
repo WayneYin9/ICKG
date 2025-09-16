@@ -23,7 +23,7 @@ ICKG is built to support temporal knowledge graph tasks and industrial chain ana
 
 ## Dataset Structure
 
-- Temporal Knowledge Graph (TKG) with weekly-resolved event quadruples  
+- Temporal Knowledge Graph (TKG) with event quadruples  
 - Quadruples tagged with specific timestamps corresponding to real-world dates  
 - Training, validation, and test splits organized chronologically  
 - Coverage across a broad range of industrial chain sectors
