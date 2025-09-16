@@ -65,25 +65,3 @@ The dataset is designed for temporal knowledge graph methods and graph-based AI 
 ICKG is freely available for academic and research purposes.
 
 ---
-
-## Citation
-
-If you use this dataset in your research, please cite it as:
-
-```
-@dataset{ickg2025,
-  title        = {Industrial Chain Knowledge Graph (ICKG)},
-  author       = {Anonymous},
-  year         = {2025},
-  publisher    = {GitHub},
-  note         = {Available at https://github.com/your-repo-link}
-}
-```
-
----
-
-## License
-
-This dataset is released for **research purposes only**. Redistribution and commercial use are prohibited without prior permission.
-
----
