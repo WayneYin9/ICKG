@@ -63,6 +63,5 @@ The dataset is designed for temporal knowledge graph methods and graph-based AI 
 - Supply Chain Risk Forecasting  
 - Entity and Relation Evolution Analysis  
 
-ICKG is freely available for academic and research purposes.
-
----
+ICKG is freely available for academic and research purposes.  
+This dataset will continue to be updated and improved in the future.
