@@ -20,6 +20,7 @@ Through processes of entity extraction, disambiguation, and relation alignment, 
 ## ICKG Dataset
 
 The dataset captures **entities** (industries, companies, patents), **relations** (e.g., upstream, supply, inclusion), and **temporal annotations** across a ten-year period. ICKG is built to support temporal knowledge graph tasks and industrial chain analysis. The overall construction workflow of the dataset is illustrated in the figure below.
+
 ![Alt text](/overall.png)
 
 
