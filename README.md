@@ -29,7 +29,7 @@ The overall construction workflow—from multi-source data collection to ontolog
 ### Data Evolution and Composition
 To ensure robust temporal reasoning, ICKG aggregates data from diverse authoritative media outlets. The figure below illustrates the **temporal evolution of news volume** and the **normalized relative composition** of media sources over time. This highlights the dataset's scale, temporal continuity, and the heterogeneous nature of the source material.
 
-![Temporal Evolution of News Volume and Media Composition](news_evolution_optimized.jpg)
+![Temporal Evolution of News Volume and Media Composition](news_evolution_optimized.png)
 
 ---
 
@@ -42,7 +42,7 @@ As demonstrated in the comparison below, our method achieves higher fidelity to 
 1.  **Filters Noise:** Ignores non-factual sentiment (e.g., "admiration") to focus on core industrial relations.
 2.  **Enforces Schema:** Captures complex multi-party relations and avoids hallucinated relation types.
 
-![Comparative Information Extraction & Performance Analysis](IE.jpg)
+![Comparative Information Extraction & Performance Analysis](IE.png)
 
 ---
 
@@ -53,7 +53,7 @@ We conducted rigorous ablation studies to validate the contribution of each comp
 ### Ablation Study
 The figure below compares the performance of **Soft Prompt Only**, **Hard Prompt Only**, and our **Dual Prompt** method. The results confirm that combining latent semantic adaptation with structural constraints yields superior Precision, Recall, and F1-scores, ensuring the construction of an ontology-consistent Knowledge Graph.
 
-![Ablation Study: Effect of Prompt Design](Comparative_Ablation_Study.jpg)
+![Ablation Study: Effect of Prompt Design](Comparative_Ablation_Study.png)
 
 ---
 
