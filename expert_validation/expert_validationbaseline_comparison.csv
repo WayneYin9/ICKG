@@ -1,0 +1,5 @@
+﻿Model,Precision,Recall,F1_Score,Sample_Size
+Baseline_BERT,0.72,0.68,0.7,2000
+Baseline_OpenIE,0.65,0.55,0.6,2000
+Our_Model_ICKG,0.89,0.86,0.87,2000
+Human_Expert,0.96,0.94,0.95,2000
