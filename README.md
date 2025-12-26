@@ -24,7 +24,7 @@ The dataset captures **entities** (industries, companies, patents), **relations*
 ### Construction Workflow
 The overall construction workflow—from multi-source data collection to ontology construction and graph completion—is illustrated below.
 
-![Overall Construction Process](./expert_validation/overall.png)
+![Overall Construction Process](./images/overall.png)
 
 ### Data Evolution and Composition
 To ensure robust temporal reasoning, ICKG aggregates data from diverse authoritative media outlets. The figure below illustrates the **temporal evolution of news volume** and the **normalized relative composition** of media sources over time. This highlights the dataset's scale, temporal continuity, and the heterogeneous nature of the source material.
@@ -41,7 +41,7 @@ To ensure robust temporal reasoning, ICKG aggregates data from diverse authorita
   | CNKI        |     Patent      | 2015–2025 |  131662   |  https://www.cnki.net/   |
   | CCG         | Industry Report | 2015–2025 |     -     |  http://www.ccg.org.cn/  |
 
-![Temporal Evolution of News Volume and Media Composition](/expert_validation/news_evolution_optimized.png)
+![Temporal Evolution of News Volume and Media Composition](/images/news_evolution_optimized.png)
 
 ---
 
@@ -54,7 +54,7 @@ As demonstrated in the comparison below, our method achieves higher fidelity to 
 1.  **Filters Noise:** Ignores non-factual sentiment (e.g., "admiration") to focus on core industrial relations.
 2.  **Enforces Schema:** Captures complex multi-party relations and avoids hallucinated relation types.
 
-![Comparative Information Extraction & Performance Analysis](/expert_validation/IE.png)
+![Comparative Information Extraction & Performance Analysis](/images/IE.png)
 
 ---
 
@@ -65,7 +65,7 @@ We conducted rigorous ablation studies to validate the contribution of each comp
 ### Ablation Study
 The figure below compares the performance of **Soft Prompt Only**, **Hard Prompt Only**, and our **Dual Prompt** method. The results confirm that combining latent semantic adaptation with structural constraints yields superior Precision, Recall, and F1-scores, ensuring the construction of an ontology-consistent Knowledge Graph.
 
-![Ablation Study: Effect of Prompt Design](/expert_validation/Comparative_Ablation_Study.png)
+![Ablation Study: Effect of Prompt Design](/images/Comparative_Ablation_Study.png)
 
 ---
 
