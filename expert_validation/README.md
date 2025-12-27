@@ -39,7 +39,7 @@ The validation focuses on the correctness of automatically extracted entity–re
 
 To facilitate the reproduction of the extraction pipeline, we provide a sample of the raw input text.
 
-* **Content**: 1,000 raw financial news articles extracted from the local database `yicai_news`.
+* **Content**: 1,000 raw financial news articles .
 * **Format**: JSON Lines (`.jsonl`), where each line contains the full article metadata and text.
 * **Schema**:
     * `id`: Database primary key
@@ -152,5 +152,6 @@ The proposed ICKG approach substantially outperforms general-purpose baselines w
 * The dataset is self-contained and independent of model training code
 
 This artifact is intended to support **transparent evaluation and reproducibility** of the human validation results reported in the paper.
+
 
 
