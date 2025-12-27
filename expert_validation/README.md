@@ -25,7 +25,7 @@ The validation focuses on the correctness of automatically extracted entity–re
 | File | Description |
 |---|---|
 | `annotated_samples.jsonl` | Expert-annotated validation dataset (2,000 samples) |
-| `raw_news_sample.jsonl` | **[NEW]** Sample of 1,000 raw news articles used for extraction |
+| `raw_news_sample.jsonl` | Sample of 1,000 raw news articles used for extraction |
 | `annotation_guidelines.pdf` | Official annotation protocol provided to experts |
 | `expert_profiles.md` | Background descriptions of annotators (anonymized) |
 | `agreement_stats.md` | Inter-annotator agreement (IAA) analysis |
@@ -152,4 +152,5 @@ The proposed ICKG approach substantially outperforms general-purpose baselines w
 * The dataset is self-contained and independent of model training code
 
 This artifact is intended to support **transparent evaluation and reproducibility** of the human validation results reported in the paper.
+
 
