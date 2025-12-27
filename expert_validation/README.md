@@ -25,6 +25,7 @@ The validation focuses on the correctness of automatically extracted entity–re
 | File | Description |
 |---|---|
 | `annotated_samples.jsonl` | Expert-annotated validation dataset (2,000 samples) |
+| `raw_news_sample.jsonl` | **[NEW]** Sample of 1,000 raw news articles used for extraction |
 | `annotation_guidelines.pdf` | Official annotation protocol provided to experts |
 | `expert_profiles.md` | Background descriptions of annotators (anonymized) |
 | `agreement_stats.md` | Inter-annotator agreement (IAA) analysis |
@@ -32,7 +33,25 @@ The validation focuses on the correctness of automatically extracted entity–re
 
 ---
 
-## 3. Validation Dataset (`annotated_samples.jsonl`)
+## 3. Data Resources
+
+### 3.1 Raw Source Data (`raw_news_sample.jsonl`)
+
+To facilitate the reproduction of the extraction pipeline, we provide a sample of the raw input text.
+
+* **Content**: 1,000 raw financial news articles extracted from the local database `yicai_news`.
+* **Format**: JSON Lines (`.jsonl`), where each line contains the full article metadata and text.
+* **Schema**:
+    * `id`: Database primary key
+    * `title`: Article headline
+    * `content`: Full body text
+    * `publish_date`: Publication timestamp
+    * `source`: News agency/origin
+    * `url`: Original web link
+
+> **Note**: This raw data serves as the input for the ICKG model, whereas the `annotated_samples.jsonl` described below is used specifically for verifying the model's output.
+
+### 3.1 Validation Dataset (`annotated_samples.jsonl`)
 
 The validation dataset consists of **2,000 randomly sampled triples** extracted from heterogeneous financial news sources across different time periods.
 
